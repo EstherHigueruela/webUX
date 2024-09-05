@@ -1,19 +1,39 @@
 <html>
-    <head>
-        <tittle></tittle>
-    </head>
-    <body style="font-family:sans-serif">
-        <header style="background-color:indigo;">
-            <a href="https://google.es/" style="color:white;">INICIO</a>
-            <div style="text-align:right"><button>Contacto</button></div>
+    <body style="font-family:sans-serif; display: flex; flex-direction: column;">
+
+        <header style="background: indigo; width: 100%; padding: 10px; color: white;">
+
+            <div style="float:left; background-color:indigo; margin:20px 50px 20px 20px">
+                <img src="https://github.com/EstherHigueruela/webdesign/blob/5a9f91220d2422b80c27d932cf56e2c682d7ac54/image.png">
+            </div>
+
+            <div style="float:left; background-color:indigo; margin:10px">
+                <nav style="color:white; font-size:20px">
+                    <ul style="list-style: none; overflow: hidden;">
+                        <li style="float: left; margin: 0 10px 0 0;"><a href="#" style="color:white ">Inicio</a></li>
+                        <li style="float: left; margin: 0 10px 0 0;"><a href="#" style="color:white">Portfolio</a></li>
+                        <li style="float: left; margin: 0 10px 0 0;"><a href="#" style="color:white">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div style="float:right; background-color:indigo; margin:20px 20px 0px 0px">
+                <button>Contacto</button>
+            </div>
+
         </header>
 
-        <main>
-            <h1 style="font-size:50px; text-align:center; color:indigo;">Diseño UX</h1>
-            <h2 style="font-size:40px; text-align:center; color:MediumPurple">Transformamos ideas en experiencias digitales <br /><br /><img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800"/></h2>
-            <h3 style="font-size:30px; color:indigo">Nuestro Enfoque:</h3>
-            <p style="font-size:20px">Cada proyecto es único y lo abordamos con una combinación de creatividad, análisis y tecnología. Desde la conceptualización hasta la implementación, trabajamos contigo para asegurar que cada detalle refleje la identidad de tu marca y resuene con tu audiencia.</p>
-            <table style="border-collapse:collapse;border:2px solid indigo; font-size:20px; margin-left:auto;margin-right:auto; rules:all;">
+        <main style="flex: 1;">
+
+            <h1 style="font-size:50px; text-align:center; color:indigo; margin-top:50px">Diseño UX</h1>
+
+            <h2 style="font-size:40px; text-align:center; color:MediumPurple;">Transformamos ideas en experiencias digitales <br /><br /><img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800"/></h2>
+            <h3 style="font-size:30px; color:indigo; margin: 100px 100px 50px 100px;">Nuestro Enfoque:</h3>
+
+            <p style="font-size:20px; margin: 50px 100px 50px 100px;">Cada proyecto es <b>único</b> y lo abordamos con una combinación de <b>creatividad, análisis y tecnología</b>. <br /><br />Desde la <i>conceptualización</i> hasta la <i>implementación</i>, trabajamos contigo para asegurar que cada detalle refleje la <b>identidad de tu marca</b> y resuene con tu audiencia.
+            </p>
+
+            <table style="border-collapse:collapse;border:2px solid indigo; font-size:20px; margin-left:auto;margin-right:auto;">
                 <tr style="background:Thistle">
                     <td>UX</td>
                     <td>UI</td>
@@ -29,10 +49,15 @@
                     <td>Colors</td>
                 </tr>
             </table>
+
+            <br />
+            <br />  
         </main>
-        <footer style="background-color:black; color: white; text-align: right">
-            <p>Calle Vista,45. Madrid</p>
+
+        <footer style="background-color:black; color: white; text-align: right; width: 100%; padding: 10px;">
+            <p>Calle Vista, 45. Madrid</p>
             <p>Tél: 666 78 98 32</p>
         </footer>
+
     </body>
 </html>
